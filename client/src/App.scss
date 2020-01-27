@@ -1,18 +1,52 @@
 .App {
   text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.players-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .players-card {
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+
+    .card {
+      width: 300px;
+      border: 1px dashed black;
+      margin-bottom: 3%;
+
+      .name {
+        font-weight: bold;
+        font-size: 110%;
+        padding-top: 3%;
+      }
+    }
+  }
+}
+
+.navbar {
+  h1 {
+    font-weight: bold; 
+  }
 }
 
 .dark-mode__toggle {
-  background: papayawhip;
+  background: darkslateblue;
   border-radius: 50px;
   border: 1px solid black;
   height: 20px;
   position: relative;
+  margin: auto;
   width: 40px;
 }
 
 .toggle {
-  background: #f68819;
+  background: lavender;
   border-radius: 50px;
   height: 18px;
   left: 0;
