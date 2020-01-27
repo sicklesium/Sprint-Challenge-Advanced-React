@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import PlayerCard from "./components/PlayerCard.js"
 import NavBar from "./components/NavBar.js"
 
