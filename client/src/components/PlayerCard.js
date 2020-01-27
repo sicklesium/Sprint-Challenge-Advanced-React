@@ -6,7 +6,7 @@ const PlayerCard = (props) => {
             <div className="players-card">
                 {props.players.map(player => (
                     <div key={player.id} className="card">
-                        <p>Name: {player.name}</p>
+                        <div className="name">Name: {player.name}</div>
                         <p>Country: {player.country}</p>
                         <p># of searches: {player.searches}</p>
                     </div>
